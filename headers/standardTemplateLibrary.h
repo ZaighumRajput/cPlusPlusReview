@@ -9,7 +9,7 @@
 #define ITERATORSWITHVECTORS_H_
 
 void iteratorsWithVectors();
-
-
+void accessIterators();
+void reverseIterator();
 
 #endif /* ITERATORSWITHVECTORS_H_ */

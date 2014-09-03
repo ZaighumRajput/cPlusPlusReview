@@ -1,13 +1,14 @@
-//Calls all my exercises
-#include "headers/standardTemplateLibrary/iteratorsWithVectors.h"
-
+		//Calls all my exercises
+#include "headers/standardTemplateLibrary.h"
+#include <iostream>
 
 int main()
 {
-	iteratorsWithVectors();
+	//iteratorsWithVectors();
+	accessIterators();
+	reverseIterator();
 
-
-
-
+	char c;
+	std::cin >> c;
 	return 0;
 }

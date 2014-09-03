@@ -6,7 +6,7 @@ using std::endl;
 using std::vector;
 
 
-void interatorsWithVectors()
+void iteratorsWithVectors()
 {
 	vector<int> container;
 	
