@@ -7,6 +7,9 @@ using std::cout;
 
 namespace SavitchEmployee
 {
+
+
+
 	Employee::Employee() : name("No name yet"), ssn("No number yet"), netPay(0)
 	{
 		//deliberately empty
@@ -52,40 +55,40 @@ namespace SavitchEmployee
 			<< "undifferntiated employee. Aborting the program.\n";
 		exit(1);
 
-	};
+	}
 
 	
+	////Another derived class Implementation
+	//	HourlyEmployee::HourlyEmployee() : Employee(), wageRate(0), hours(0)
+	//	{
+	//	}
+	//	HourlyEmployee::HourlyEmployee(string theName, string theNumber,
+	//									double theWageRate, double theHours)
+	//									: Employee(theName, theNumber), wageRate(theWageRate), hours(theHours)
+	//	{
+	//	}
 
+	//	void HourlyEmployee::setRate(double newWageRate)
+	//	{
+	//		wageRate = newWageRate;
+	//	}
+	//	double HourlyEmployee::setRate() const
+	//	{
+	//		return wageRate;
+	//	}
+	//	void HourlyEmployee::setHours(double hoursWorked)
+	//	{
+	//		hours = hoursWorked;
+	//	}
+	//	double HourlyEmployee::setHours() const
+	//	{
+	//		return hours;
+	//	}
+	//	void HourlyEmployee::printCheck()
+	//	{
 
-	//Derived class
-	class SalariedEmployee: public Employee
-	{
-	public:
-		SalariedEmployee();
-		SalariedEmployee(string theName, string theSsn, double theWeeklySalary);
-
-		double getSalary() const;
-		void setSalary(double newSalary);
-		void printCheck();
-	private:
-		double salary; //weekly
-	};
-
-	//Another derived class
-	class HourlyEmployee: public Employee
-	{
-		HourlyEmployee::HourlyEmployee() : Employee(), wageRate(0), hours(0)
-		{
-		}
-		HourlyEmployee::HourlyEmployee(string theName, string theNumber,
-										double theWageRate, double theHours)
-										: Employee(theName, theNumber), wageRate(theWageRate), hours(theHours)
-		{
-		}
-
-
-
-	};
+	//	}
+	
 
 }
 

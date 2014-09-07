@@ -7,6 +7,9 @@ using std::string;
 
 namespace SavitchEmployee
 {
+
+
+
 	class Employee
 	{
 	public:
@@ -26,7 +29,7 @@ namespace SavitchEmployee
 		double netPay;
 	};
 
-	class HourlyEmployee: public Employee
+	class HourlyEmployee : public Employee
 	{
 	public:
 		HourlyEmployee();
@@ -40,8 +43,10 @@ namespace SavitchEmployee
 		double wageRate;
 		double hours;
 	};
+	
+	
 
-	class SalaryEmployee: public Employee
+	class SalariedEmployee : public Employee
 	{
 	public:
 		SalariedEmployee();
@@ -51,8 +56,6 @@ namespace SavitchEmployee
 		void printCheck();
 	private:
 		double salary;
-
-
 	};
 
 }
