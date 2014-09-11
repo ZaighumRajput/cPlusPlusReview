@@ -23,7 +23,7 @@ int main()
 //Flow of control
 	//inflation
 	
-	std::cout << calculateInflation(5,5,5);
+	std::cout <<"The cost is" << calculateInflation(100,2, 0.05);
 	char c = 'N';
 	std::cin >> c;
 	return 0;

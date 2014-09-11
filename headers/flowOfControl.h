@@ -3,7 +3,7 @@
 #define FLOWOFCONTROL_H
 
 
-double calculateInflation(double cost, double years, double inflationRate);
+double calculateInflation(double cost, int years, double inflationRate);
 
 
 
