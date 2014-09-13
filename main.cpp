@@ -2,6 +2,7 @@
 #include "headers\standardTemplateLibrary.h"
 #include "headers\interfaceEmployee.h"
 #include "headers\flowOfControl.h"
+#include "headers\nameSpaces.h"
 #include <iostream>
 
 int main()
@@ -22,7 +23,7 @@ int main()
 	
 //Flow of control
 	//inflation
-	
+	mainFunction();
 	std::cout <<"The cost is" << calculateInflation(100,2, 0.05);
 	char c = 'N';
 	std::cin >> c;

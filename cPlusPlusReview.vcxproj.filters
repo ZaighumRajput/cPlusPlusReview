@@ -25,6 +25,9 @@
     <Filter Include="Source Files\flowOfControl">
       <UniqueIdentifier>{5857f170-0158-4c88-85c1-a9e55910621f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\nameSpaces">
+      <UniqueIdentifier>{423cd6ed-9ee4-4743-bd01-a1b686cd6094}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,10 +42,13 @@
     <ClCompile Include="source\standardtemplatelibrary\reverseIterator.cpp">
       <Filter>Source Files\standardTemplateLibrary</Filter>
     </ClCompile>
-    <ClCompile Include="interfaceEmployee.cpp">
+    <ClCompile Include="source\enscapulation\namespaceExample.cpp">
+      <Filter>Source Files\nameSpaces</Filter>
+    </ClCompile>
+    <ClCompile Include="source\inheritance\interfaceEmployee.cpp">
       <Filter>Source Files\inheritance</Filter>
     </ClCompile>
-    <ClCompile Include="calculateInflation.cpp">
+    <ClCompile Include="source\flowOfControl\calculateInflation.cpp">
       <Filter>Source Files\flowOfControl</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,10 +56,13 @@
     <ClInclude Include="headers\standardTemplateLibrary.h">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="interfaceEmployee.h">
+    <ClInclude Include="flowOfControl.h">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="flowOfControl.h">
+    <ClInclude Include="headers\nameSpaces.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\interfaceEmployee.h">
       <Filter>headers</Filter>
     </ClInclude>
   </ItemGroup>
