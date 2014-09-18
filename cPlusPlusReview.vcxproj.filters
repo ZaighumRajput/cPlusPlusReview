@@ -28,6 +28,9 @@
     <Filter Include="Source Files\nameSpaces">
       <UniqueIdentifier>{423cd6ed-9ee4-4743-bd01-a1b686cd6094}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\pointers">
+      <UniqueIdentifier>{9f416f47-1b79-4ee2-a6bb-6738c75c5a01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -65,5 +68,13 @@
     <ClInclude Include="headers\interfaceEmployee.h">
       <Filter>headers</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source\pointers\basicPoint.cpp">
+      <Filter>Source Files\pointers</Filter>
+    </Text>
+    <Text Include="headers\pointers.h">
+      <Filter>headers</Filter>
+    </Text>
   </ItemGroup>
 </Project>

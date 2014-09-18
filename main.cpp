@@ -3,6 +3,7 @@
 #include "headers\interfaceEmployee.h"
 #include "headers\flowOfControl.h"
 #include "headers\nameSpaces.h"
+#include "headers\pointers.h"
 #include <iostream>
 
 int main()
@@ -25,7 +26,13 @@ int main()
 	//inflation
 	//mainFunction();
 	//std::cout <<"The cost is" << calculateInflation(100,2, 0.05);
-	//char c = 'N';
-	//std::cin >> c;
+	
 	//return 0;
+	using std::cout;
+	
+	basicPoint();
+
+	char c = 'N';
+	std::cin >> c;
+	return EXIT_SUCCESS;
 }

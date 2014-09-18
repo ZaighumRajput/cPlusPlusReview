@@ -85,6 +85,10 @@
     <ClInclude Include="headers\nameSpaces.h" />
     <ClInclude Include="headers\standardTemplateLibrary.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="headers\pointers.h" />
+    <Text Include="source\pointers\basicPoint.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
