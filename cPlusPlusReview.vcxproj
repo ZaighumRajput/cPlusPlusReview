@@ -75,19 +75,19 @@
     <ClCompile Include="source\enscapulation\namespaceExample.cpp" />
     <ClCompile Include="source\flowOfControl\calculateInflation.cpp" />
     <ClCompile Include="source\inheritance\interfaceEmployee.cpp" />
+    <ClCompile Include="source\pointers\basicPoint.cpp" />
     <ClCompile Include="source\standardtemplatelibrary\bidirectionalAndRandomAccess.cpp" />
     <ClCompile Include="source\standardtemplatelibrary\iteratorsWithVectors.cpp" />
     <ClCompile Include="source\standardtemplatelibrary\reverseIterator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="flowOfControl.h" />
+    <ClInclude Include="headers\flowOfControl.h" />
     <ClInclude Include="headers\interfaceEmployee.h" />
     <ClInclude Include="headers\nameSpaces.h" />
     <ClInclude Include="headers\standardTemplateLibrary.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="headers\pointers.h" />
-    <Text Include="source\pointers\basicPoint.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -28,10 +28,9 @@ int main()
 	//std::cout <<"The cost is" << calculateInflation(100,2, 0.05);
 	
 	//return 0;
-	using std::cout;
 	
 	basicPoint();
-
+	using std::cout;
 	char c = 'N';
 	std::cin >> c;
 	return EXIT_SUCCESS;

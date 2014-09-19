@@ -54,12 +54,12 @@
     <ClCompile Include="source\flowOfControl\calculateInflation.cpp">
       <Filter>Source Files\flowOfControl</Filter>
     </ClCompile>
+    <ClCompile Include="source\pointers\basicPoint.cpp">
+      <Filter>Source Files\pointers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\standardTemplateLibrary.h">
-      <Filter>headers</Filter>
-    </ClInclude>
-    <ClInclude Include="flowOfControl.h">
       <Filter>headers</Filter>
     </ClInclude>
     <ClInclude Include="headers\nameSpaces.h">
@@ -68,11 +68,11 @@
     <ClInclude Include="headers\interfaceEmployee.h">
       <Filter>headers</Filter>
     </ClInclude>
+    <ClInclude Include="headers\flowOfControl.h">
+      <Filter>headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="source\pointers\basicPoint.cpp">
-      <Filter>Source Files\pointers</Filter>
-    </Text>
     <Text Include="headers\pointers.h">
       <Filter>headers</Filter>
     </Text>

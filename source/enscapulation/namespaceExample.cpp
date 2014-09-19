@@ -2,7 +2,10 @@
 #include "../../headers/nameSpaces.h"
 using namespace std;
 
+void blah()
+{
 
+}
 namespace Hello
 {
 	void message();
