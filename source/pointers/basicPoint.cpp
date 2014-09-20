@@ -21,8 +21,8 @@ void basicPoint()
 	cout << "*p2 == " << *p2 << endl;
 	cout << "P1 is at " << p1 << endl;
 	cout << "P2 is at " << p2 << endl;
-	cout << "P1 where the pointer is kept is at " << &p1 << endl;
-	cout << "P2 where the pointer is kept  is at " << &p2 << endl;
+	//cout << "P1 where the pointer is kept is at " << &p1 << endl;
+	//cout << "P2 where the pointer is keptA is at " << &p2 << endl;
 
 
 	*p2 = 53;
