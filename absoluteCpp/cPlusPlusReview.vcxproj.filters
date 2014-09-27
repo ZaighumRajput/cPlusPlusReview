@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{d47004e6-7437-4aab-9515-af5f09efc40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\standardTemplateLibrary">
+      <UniqueIdentifier>{c0429218-5dff-481f-87ee-49055202d0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inheritance">
+      <UniqueIdentifier>{daa089c7-03f9-4383-9991-7cb4f4a7f735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\flowOfControl">
+      <UniqueIdentifier>{5857f170-0158-4c88-85c1-a9e55910621f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nameSpaces">
+      <UniqueIdentifier>{423cd6ed-9ee4-4743-bd01-a1b686cd6094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pointers">
+      <UniqueIdentifier>{9f416f47-1b79-4ee2-a6bb-6738c75c5a01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standardtemplatelibrary\bidirectionalAndRandomAccess.cpp">
+      <Filter>Source Files\standardTemplateLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standardtemplatelibrary\iteratorsWithVectors.cpp">
+      <Filter>Source Files\standardTemplateLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standardtemplatelibrary\reverseIterator.cpp">
+      <Filter>Source Files\standardTemplateLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enscapulation\namespaceExample.cpp">
+      <Filter>Source Files\nameSpaces</Filter>
+    </ClCompile>
+    <ClCompile Include="source\inheritance\interfaceEmployee.cpp">
+      <Filter>Source Files\inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\flowOfControl\calculateInflation.cpp">
+      <Filter>Source Files\flowOfControl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pointers\basicPoint.cpp">
+      <Filter>Source Files\pointers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\standardTemplateLibrary.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\nameSpaces.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\interfaceEmployee.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\flowOfControl.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="headers\pointers.h">
+      <Filter>headers</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
