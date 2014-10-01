@@ -1,16 +1,10 @@
 #include "bob.h"
 
 
-bob::bob(void)
+
+
+static std::string hey(std::string const& inputText)
 {
-}
-
-
-bob::~bob(void)
-{
-}
-
-std::string bob::hey(std::string)
-	{
-		
+	std::string a = "agg";
+	return "agg";
 }

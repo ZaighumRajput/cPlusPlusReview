@@ -5,12 +5,12 @@
 class bob
 {
 public:
-	bob2(void);
-	~bob2(void);
-	using namespace std;
-	string hey(string);
+	bob(void);
+	~bob(void);
+	
+	static std::string hey(std::string const& inputText);
 
-}
+};
 
 
 #endif

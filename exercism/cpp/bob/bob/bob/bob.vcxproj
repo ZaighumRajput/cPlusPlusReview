@@ -47,6 +47,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\masterRoot\utilities\VC\atlmfc\include\boost\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -64,12 +65,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bob.cpp" />
-    <ClCompile Include="bob2.cpp" />
     <ClCompile Include="bob_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bob.h" />
-    <ClInclude Include="bob2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
